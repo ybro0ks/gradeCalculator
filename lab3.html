@@ -1,0 +1,77 @@
+<!DOCTYPE html>.
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <title>My Third Project</title>
+        <link rel="stylesheet" href="lab3.css">
+    </head>
+    <body>
+        <button class= "button" id = "button"> Add New Row </button>
+        <button class= "button" id = "button2"> Delete Row </button>
+        <button class = "button" id="saveTableState">Save Table </button>
+        <button class = "button" id="restoreTableState">Restore Table </button>
+
+
+  <table id = "table">
+    
+   
+    <tr> <!--this is the head of all the tables-->
+        <th>NAME</th>
+        <th>STUDENT ID</th>
+        <th>ASSIGNMENT1</th>
+        <th>ASSIGNMENT2</th>
+        <th>ASSIGNMENT3</th>
+        <th>ASSIGNMENT4</th>
+        <th>ASSIGNMENT5</th>
+        <th class =  "Average">AVERAGE</th>
+    </tr>
+    <tr data-editable = "First Row">
+        <td>TEMI FETUGA</td>
+        <td contenteditable = "true">2247712</td>
+        <td contenteditable = "true" class = "Assignments">-</td>
+        <td contenteditable = "true" class = "Assignments">-</td>
+        <td contenteditable = "true" class = "Assignments">-</td>
+        <td contenteditable = "true" class = "Assignments">-</td>
+        <td contenteditable = "true" class = "Assignments">-</td>
+        <td class = "average "></td>
+
+        
+
+    </tr>
+    <tr data-editable="">
+        <td>TEMI FETUGA</td>
+        <td contenteditable = "true">2247712</td>
+        <td contenteditable = "true" class = "Assignments">-</td>
+        <td contenteditable = "true" class = "Assignments">-</td>
+        <td contenteditable = "true" class = "Assignments">-</td>
+        <td contenteditable = "true" class = "Assignments">-</td>
+        <td contenteditable = "true" class = "Assignments">-</td>
+        <td class = "average "></td>
+    </tr>
+    <tr data-editable="">
+        <td>TEMI FETUGA</td>
+        <td contenteditable class = "true" >2247712</td>
+        <td contenteditable = "true" class = "Assignments">-</td>
+        <td contenteditable = "true" class = "Assignments">-</td>
+        <td contenteditable = "true" class = "Assignments">-</td>
+        <td contenteditable = "true" class = "Assignments">-</td>
+        <td contenteditable = "true" class = "Assignments">-</td>
+        <td class = "average"></td>
+    </tr>
+    <tr data-editable="">
+        <td>TEMI FETUGA</td>
+        <td contenteditable = "true">2247712</td>
+        <td contenteditable = "true" class = "Assignments">-</td>
+        <td contenteditable = "true" class = "Assignments">-</td>
+        <td contenteditable = "true" class = "Assignments">-</td>
+        <td contenteditable = "true" class = "Assignments">-</td>
+        <td contenteditable = "true" class = "Assignments">-</td>
+        <td class = "average ">39</td>
+    </tr>
+  </table>
+  <div id="unsubmittedCount">Unsubmitted Assignments: 0</div>
+
+</body>
+<script src="lab3.js"></script>
+</html>
